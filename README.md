@@ -1,4 +1,7 @@
 # Instructions
+
+Required: Visual Studio Redist 2013 x86
+
 1. Before running CreateCert.bat, update the file san.conf to change the FQDN or sites you'd want to assign the certificate
 
 2. In the san.conf, do not touch anything but [alt_names] section. Here add the sites you'd want to assign your certificate. 
